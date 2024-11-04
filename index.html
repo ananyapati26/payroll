@@ -38,8 +38,8 @@
 </head>
 <body>
     <form name="payroll">
-        <h1>Payroll Calculator</h1>
-
+        <h1 style="text-align: center">Payroll Calculator</h1>
+<div style="display: flex; justify-content: space-around;">
         <!-- First Table for input fields -->
         <table bgcolor="yellow">
             <tr>
@@ -78,7 +78,7 @@
         </table>
 
         <!-- Second Table for results, initially hidden -->
-        <table id="resultTable" bgcolor="lightgrey" style="display: none; margin-top: 10px;">
+        <table id="resultTable" bgcolor="aqua" style="display: none; margin-top: 10px;">
             <tr>
                 <td>Gross pay :</td>
                 <td><input type="text" name="txtgpay"></td>
@@ -95,6 +95,7 @@
                 <td><input type="button" value="Clear" onclick="btnclear()"></td>
             </tr>
         </table>
+    </div>
     </form>
 </body>
 </html>
